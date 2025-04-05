@@ -78,5 +78,3 @@ CREATE INDEX idx_albums_category ON albums(category);
 -- Grant necessary permissions
 GRANT ALL ON albums TO authenticated;
 GRANT ALL ON patterns TO authenticated;
-GRANT USAGE ON SEQUENCE albums_id_seq TO authenticated;
-GRANT USAGE ON SEQUENCE patterns_id_seq TO authenticated; 
